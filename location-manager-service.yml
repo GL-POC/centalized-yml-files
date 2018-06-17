@@ -6,13 +6,26 @@ spring:
     name: location-manager-service
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database:  lmsDb
+     host: localhost
+     port: 27017
+     database: lmsDb
+     
 
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
   instance:
-    preferIpAddress: true
+    preferIpAddress: false
+    
+product:
+  name: sushil kumar kushwaha
+  url: www.globalLogic.com
+  email: sushilkumar.kushwaha@globallogic.com
+  title: POC(Proof Of Concept)
+  description: Global logic Api documentation for POC.
+  version: 1.0
+  termsOfServiceUrl: urn:tos
+  license: Apache 2.0
+  licenseUrl: http://www.apache.org/licenses/LICENSE-2.0
+  
