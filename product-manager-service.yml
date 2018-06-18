@@ -1,5 +1,5 @@
 server:
-  port: 9009
+  port: 9000
 
 spring:
   application:
@@ -8,7 +8,7 @@ spring:
     mongodb:
      host: localhost
      port: 27017
-     database: pmsDb-new
+     database: pmsDb
      
 
 eureka:
